@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream font-sans text-gray-800 antialiased;
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-garden-600 text-white px-7 py-3 rounded-full font-medium
+           hover:bg-garden-700 active:bg-garden-800
+           transition-all duration-200 inline-block shadow-sm hover:shadow-md;
+  }
+  .btn-secondary {
+    @apply border-2 border-garden-600 text-garden-600 px-7 py-3 rounded-full font-medium
+           hover:bg-garden-600 hover:text-white
+           transition-all duration-200 inline-block;
+  }
+  .btn-outline-white {
+    @apply border-2 border-white text-white px-7 py-3 rounded-full font-medium
+           hover:bg-white hover:text-garden-800
+           transition-all duration-200 inline-block;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-serif text-garden-800 font-semibold;
+  }
+  .section-subtitle {
+    @apply text-garden-600 text-lg mt-3 leading-relaxed;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-sm hover:shadow-lg
+           transition-all duration-300 overflow-hidden border border-garden-100;
+  }
+  .page-hero {
+    @apply bg-gradient-to-br from-garden-700 via-garden-600 to-garden-500
+           text-white py-20 px-4 text-center;
+  }
+  .input-field {
+    @apply w-full border border-gray-200 rounded-xl px-4 py-3 text-sm
+           focus:outline-none focus:border-garden-400 focus:ring-2 focus:ring-garden-100
+           bg-white transition-all duration-200 placeholder-gray-400;
+  }
+  .badge-available {
+    @apply inline-block bg-garden-100 text-garden-700 text-xs font-semibold
+           px-3 py-1 rounded-full;
+  }
+  .badge-soon {
+    @apply inline-block bg-wheat-100 text-wheat-700 text-xs font-semibold
+           px-3 py-1 rounded-full;
+  }
+}
+
+/* Decorative divider */
+.leaf-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.leaf-divider::before,
+.leaf-divider::after {
+  content: '';
+  flex: 1;
+  max-width: 80px;
+  height: 1px;
+  background: #93c6a9;
+}
+
+/* Smooth page transitions */
+.page-enter {
+  animation: fadeInUp 0.4s ease both;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #f2f8f4; }
+::-webkit-scrollbar-thumb { background: #93c6a9; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #418b62; }
