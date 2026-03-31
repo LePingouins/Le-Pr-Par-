@@ -1,4 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import { LanguageProvider } from './context/LanguageContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -12,6 +13,7 @@ export default function App() {
     <LanguageProvider>
       <HashRouter>
         <div className="flex flex-col min-h-screen">
+          <ScrollToTop />
           <Navbar />
           <main className="flex-1 page-enter">
             <Routes>

@@ -31,8 +31,8 @@ function CategoryCard({ cat, langProducts, idx }) {
   ]
 
   return (
-    <Link to="/produits" className="block group">
-      <div className={`card border ${borders[idx % borders.length]} bg-gradient-to-br ${gradients[idx % gradients.length]} group-hover:-translate-y-1 transition-transform duration-300`}>
+    <Link to="/produits" className="block group h-full">
+      <div className={`card h-full border ${borders[idx % borders.length]} bg-gradient-to-br ${gradients[idx % gradients.length]} group-hover:-translate-y-1 transition-transform duration-300`}>
         <div className="p-6">
           <div className="flex items-start justify-between mb-4">
             <span className="text-4xl">{cat.emoji}</span>
