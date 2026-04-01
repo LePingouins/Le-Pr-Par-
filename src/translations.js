@@ -207,7 +207,7 @@ export const translations = {
               use: 'Soupes et potages',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Congelé_Mélange_a_soupe.png',
+              image: '/images/vegetable/Congelé_Mélange_a_soupe.jpg',
             },
             {
               name: 'Mélange Spaghetti',
@@ -215,7 +215,7 @@ export const translations = {
               use: 'Sauces à pâtes',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Congelé_sauce_a_spag.png',
+              image: '/images/vegetable/Congelé_sauce_a_spag.jpg',
             },
             {
               name: 'Mélange Ratatouille',
@@ -223,7 +223,7 @@ export const translations = {
               use: 'Ratatouille, plats mijotés',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Congelé_ratatouille.png',
+              image: '/images/vegetable/Congelé_ratatouille.jpg',
             },
             {
               name: 'Mélange Passe-Partout',
@@ -231,7 +231,7 @@ export const translations = {
               use: 'Passe-partout en cuisine',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Congelé_passe_partout.png',
+              image: '/images/vegetable/Congelé_passe_partout.jpg',
             },
             {
               name: 'Bouillon de Légume',
