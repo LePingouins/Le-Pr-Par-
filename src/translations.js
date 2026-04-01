@@ -113,7 +113,7 @@ export const translations = {
               use: 'À découvrir!',
               price: '2$ l\'unité',
               season: ['spring', 'summer'],
-              image: null,
+              image: '/images/vegetable/Plant_de_tomate_suprise.png',
             },
             {
               name: 'Poivron Golden California Wonder',
@@ -137,7 +137,7 @@ export const translations = {
               use: 'Passe-partout',
               price: '2$ l\'unité',
               season: ['spring', 'summer', 'fall'],
-              image: null,
+              image: '/images/vegetable/Poivron_surprise.png',
             },
             {
               name: 'Bette à Carde Multicolore',
@@ -180,7 +180,7 @@ export const translations = {
               use: 'Piments forts en cuisine',
               price: '5$',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Mélange_de_piments_foret.png',
             },
             {
               name: 'LE Mélange',
@@ -188,7 +188,7 @@ export const translations = {
               use: 'Passe-partout — viandes, légumes, pâtes',
               price: '6$',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/LE_mélange.png',
             },
           ],
         },
@@ -207,7 +207,7 @@ export const translations = {
               use: 'Soupes et potages',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_Mélange_a_soupe.png',
             },
             {
               name: 'Mélange Spaghetti',
@@ -215,7 +215,7 @@ export const translations = {
               use: 'Sauces à pâtes',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_sauce_a_spag.png',
             },
             {
               name: 'Mélange Ratatouille',
@@ -223,7 +223,7 @@ export const translations = {
               use: 'Ratatouille, plats mijotés',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_ratatouille.png',
             },
             {
               name: 'Mélange Passe-Partout',
@@ -231,7 +231,7 @@ export const translations = {
               use: 'Passe-partout en cuisine',
               price: '5$',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_passe_partout.png',
             },
             {
               name: 'Bouillon de Légume',
@@ -239,7 +239,7 @@ export const translations = {
               use: 'Base de soupes, risottos, sauces',
               price: '5$',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Bouillon_de_légumes.png',
             },
             {
               name: 'Pesto de Fines Herbes',
@@ -247,7 +247,7 @@ export const translations = {
               use: 'Pâtes, tartines, marinades',
               price: '6$',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Pesto.png',
             },
             {
               name: 'Beurre à l\'Ail',
@@ -255,7 +255,7 @@ export const translations = {
               use: 'Pain, légumes, viandes grillées',
               price: '6$',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Beurre_a_l\'ail.png',
             },
             {
               name: 'Base Sauce Tomate',
@@ -263,7 +263,7 @@ export const translations = {
               use: 'Pâtes, pizzas, mijotés',
               price: '8$',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Sauce_tomate.png',
             },
             {
               name: 'Base Sauce Tomate et Poivrons',
@@ -271,7 +271,7 @@ export const translations = {
               use: 'Pâtes, pizzas, mijotés',
               price: '8$',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Sauce_tomate_poivrons.png',
             },
           ],
         },
@@ -528,7 +528,7 @@ export const translations = {
               use: 'Discover it yourself!',
               price: '$2 each',
               season: ['spring', 'summer'],
-              image: null,
+              image: '/images/vegetable/Plant_de_tomate_suprise.png',
             },
             {
               name: 'Golden California Wonder Pepper',
@@ -552,7 +552,7 @@ export const translations = {
               use: 'All-purpose',
               price: '$2 each',
               season: ['spring', 'summer', 'fall'],
-              image: null,
+              image: '/images/vegetable/Poivron_surprise.png',
             },
             {
               name: 'Rainbow Swiss Chard',
@@ -595,7 +595,7 @@ export const translations = {
               use: 'Spicy cooking',
               price: '$5',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Mélange_de_piments_foret.png',
             },
             {
               name: 'THE Blend',
@@ -603,7 +603,7 @@ export const translations = {
               use: 'Meats, vegetables, pasta — all-purpose',
               price: '$6',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/LE_mélange.png',
             },
           ],
         },
@@ -622,7 +622,7 @@ export const translations = {
               use: 'Soups & potages',
               price: '$5',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_Mélange_a_soupe.png',
             },
             {
               name: 'Spaghetti Blend',
@@ -630,7 +630,7 @@ export const translations = {
               use: 'Pasta sauces',
               price: '$5',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_sauce_a_spag.png',
             },
             {
               name: 'Ratatouille Blend',
@@ -638,7 +638,7 @@ export const translations = {
               use: 'Ratatouille, stews',
               price: '$5',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_ratatouille.png',
             },
             {
               name: 'All-Purpose Blend',
@@ -646,7 +646,7 @@ export const translations = {
               use: 'All-purpose cooking',
               price: '$5',
               volume: '500 g',
-              image: '/images/vegetable/Mélange_de_légumes_congelés.png',
+              image: '/images/vegetable/Congelé_passe_partout.png',
             },
             {
               name: 'Vegetable Broth',
@@ -654,7 +654,7 @@ export const translations = {
               use: 'Soups, risottos, sauces',
               price: '$5',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Bouillon_de_légumes.png',
             },
             {
               name: 'Herb Pesto',
@@ -662,7 +662,7 @@ export const translations = {
               use: 'Pasta, crostini, marinades',
               price: '$6',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Pesto.png',
             },
             {
               name: 'Garlic Butter',
@@ -670,7 +670,7 @@ export const translations = {
               use: 'Bread, vegetables, grilled meats',
               price: '$6',
               volume: '237 ml',
-              image: null,
+              image: '/images/vegetable/Beurre_a_l\'ail.png',
             },
             {
               name: 'Tomato Sauce Base',
@@ -678,7 +678,7 @@ export const translations = {
               use: 'Pasta, pizzas, stews',
               price: '$8',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Sauce_tomate.png',
             },
             {
               name: 'Tomato & Pepper Sauce Base',
@@ -686,7 +686,7 @@ export const translations = {
               use: 'Pasta, pizzas, stews',
               price: '$8',
               volume: '946 ml',
-              image: null,
+              image: '/images/vegetable/Sauce_tomate_poivrons.png',
             },
           ],
         },
