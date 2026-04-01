@@ -164,7 +164,7 @@ export const translations = {
               use: 'Passe-partout en cuisine',
               price: '6$',
               volume: '237 ml',
-              image: '/images/vegetable/Pépite_d\'or_s\'il_séché.png',
+              image: '/images/vegetable/Pepite_d_or_seche.jpg',
             },
             {
               name: 'Pépites d\'or — Ail Séché aux Herbes et Piment',
@@ -172,7 +172,7 @@ export const translations = {
               use: 'Marinades, vinaigrettes, plats relevés',
               price: '6$',
               volume: '237 ml',
-              image: '/images/vegetable/Pépite_d\'or_s\'il_séché.png',
+              image: '/images/vegetable/Pepite_d_or_seche.jpg',
             },
             {
               name: 'Mélange de Piments Fort',
@@ -255,7 +255,7 @@ export const translations = {
               use: 'Pain, légumes, viandes grillées',
               price: '6$',
               volume: '237 ml',
-              image: '/images/vegetable/Beurre_a_l\'ail.png',
+              image: '/images/vegetable/Beurre_a_l_ail.jpg',
             },
             {
               name: 'Base Sauce Tomate',
@@ -297,7 +297,7 @@ export const translations = {
               use: 'Sautée, marinée, en pesto',
               price: 'Nous contacter',
               season: 'spring',
-              image: '/images/vegetable/Fleur_d\'ail.png',
+              image: '/images/vegetable/Fleur_d_ail.jpg',
             },
             {
               name: 'Ail Frais',
@@ -579,7 +579,7 @@ export const translations = {
               use: 'All-purpose cooking',
               price: '$6',
               volume: '237 ml',
-              image: '/images/vegetable/Pépite_d\'or_s\'il_séché.png',
+              image: '/images/vegetable/Pepite_d_or_seche.jpg',
             },
             {
               name: 'Pépites d\'or — Dried Garlic with Herbs & Chili',
@@ -587,7 +587,7 @@ export const translations = {
               use: 'Marinades, dressings, spicy dishes',
               price: '$6',
               volume: '237 ml',
-              image: '/images/vegetable/Pépite_d\'or_s\'il_séché.png',
+              image: '/images/vegetable/Pepite_d_or_seche.jpg',
             },
             {
               name: 'Hot Chili Blend',
@@ -670,7 +670,7 @@ export const translations = {
               use: 'Bread, vegetables, grilled meats',
               price: '$6',
               volume: '237 ml',
-              image: '/images/vegetable/Beurre_a_l\'ail.png',
+              image: '/images/vegetable/Beurre_a_l_ail.jpg',
             },
             {
               name: 'Tomato Sauce Base',
@@ -712,7 +712,7 @@ export const translations = {
               use: 'Sautéed, pickled, pesto',
               price: 'Contact us',
               season: 'spring',
-              image: '/images/vegetable/Fleur_d\'ail.png',
+              image: '/images/vegetable/Fleur_d_ail.jpg',
             },
             {
               name: 'Fresh Garlic',
