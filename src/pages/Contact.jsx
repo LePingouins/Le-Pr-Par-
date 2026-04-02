@@ -81,11 +81,6 @@ export default function Contact() {
                 <div className="p-6">
                   <h3 className="font-serif text-lg font-semibold text-garden-800 mb-2">{c.info.title}</h3>
                   <InfoRow
-                    icon="📍"
-                    label={c.info.address}
-                    value={c.info.addressValue}
-                  />
-                  <InfoRow
                     icon="📞"
                     label={c.info.phone}
                     value={c.info.phoneValue}
@@ -227,33 +222,27 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Map placeholder / address banner */}
-      <section className="bg-garden-800 text-white py-12">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-center md:text-left">
-              <p className="text-garden-300 text-sm uppercase tracking-widest font-medium mb-2">
-                {lang === 'fr' ? 'Nous trouver' : 'Find us'}
-              </p>
-              <h2 className="font-serif text-2xl font-semibold">
-                25 rue Legault<br/>
-                Sainte-Anne-de-Bellevue, QC
-              </h2>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="tel:5146910949"
-                className="btn-outline-white"
-              >
-                📞 514-691-0949
-              </a>
-              <a
-                href="mailto:le.prepare1@gmail.com"
-                className="btn-outline-white"
-              >
-                ✉️ {lang === 'fr' ? 'Écrire' : 'Email us'}
-              </a>
-            </div>
+      {/* Contact CTA banner */}
+      <section className="bg-garden-800 text-white py-14">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-garden-300 text-sm uppercase tracking-widest font-medium mb-3">
+            {lang === 'fr' ? 'Une question? Une commande?' : 'A question? An order?'}
+          </p>
+          <h2 className="font-serif text-3xl font-semibold mb-2">
+            {lang === 'fr' ? 'On est l’à pour vous.' : 'We’re here for you.'}
+          </h2>
+          <p className="text-garden-300 text-sm mb-8">
+            {lang === 'fr'
+              ? 'Contactez-nous par téléphone ou par courriel — on vous répondra rapidement.'
+              : 'Reach us by phone or email — we’ll get back to you quickly.'}
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="tel:5146910949" className="btn-outline-white">
+              📞 514-691-0949
+            </a>
+            <a href="mailto:le.prepare1@gmail.com" className="btn-outline-white">
+              ✉️ {lang === 'fr' ? 'Écrire' : 'Email us'}
+            </a>
           </div>
         </div>
       </section>

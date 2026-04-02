@@ -83,10 +83,6 @@ export default function Footer() {
           <div>
             <h3 className="font-serif text-white text-lg font-semibold mb-5">{t.footer.contactTitle}</h3>
             <ul className="space-y-3 text-sm text-garden-300">
-              <li className="flex items-start gap-2">
-                <span className="mt-0.5">📍</span>
-                <span>25 rue Legault<br/>Sainte-Anne-de-Bellevue, QC</span>
-              </li>
               <li className="flex items-center gap-2">
                 <span>📞</span>
                 <a href="tel:5146910949" className="hover:text-white transition-colors">514-691-0949</a>
