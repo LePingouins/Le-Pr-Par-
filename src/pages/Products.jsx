@@ -104,7 +104,9 @@ function ProductCard({ item, products, cardBg }) {
           {item.volume && (
             <span className="text-xs text-gray-400">{item.volume}</span>
           )}
-          <span className="text-sm font-bold text-garden-800 ml-auto">{item.price}</span>
+          <span className="text-sm font-bold text-garden-800 ml-auto">
+            {item.price}{item.taxable && <span className="text-xs font-normal text-gray-400"> {products.taxLabel}</span>}
+          </span>
         </div>
       </div>
     </div>
@@ -156,7 +158,7 @@ function CategorySection({ cat, products, idx }) {
         ) : cat.items && cat.items.length > 0 ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {cat.items.map((item, i) => (
-              <ProductCard key={i} item={{ season: cat.defaultSeason, ...item }} products={products} cardBg={color.card} />
+              <ProductCard key={i} item={{ season: cat.defaultSeason, taxable: cat.taxable, ...item }} products={products} cardBg={color.card} />
             ))}
           </div>
         ) : null}

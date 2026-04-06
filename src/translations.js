@@ -50,6 +50,7 @@ export const translations = {
       contactForPrice: 'Prix sur demande',
       orderBtn: 'Commander',
       useLabel: 'Idéal pour',
+      taxLabel: '+ taxes',
       seasons: {
         spring: 'Printemps',
         summer: 'Été',
@@ -63,6 +64,7 @@ export const translations = {
           emoji: '🌱',
           name: 'Le Pré Paré — Les Plants',
           tag: 'available',
+          taxable: true,
           defaultSeason: 'spring',
           description: 'Cultivés avec amour et passion sans pesticides ni engrais chimiques.',
           detail: 'Nos plants sont élevés dans les meilleures conditions pour assurer une croissance saine et vigoureuse. Disponibles chaque printemps.',
@@ -73,7 +75,7 @@ export const translations = {
               use: 'Passe-partout',
               price: '4$ l\'unité ou 3 pour 10$',
               season: ['spring', 'summer'],
-              image: '/images/vegetable/Tomate_early_girl.jpg',
+              image: '/images/vegetable/Tomate_beefsteak.jpg',
             },
             {
               name: 'Tomate Beefsteak Nain',
@@ -168,7 +170,7 @@ export const translations = {
             },
             {
               name: 'Pépites d\'or — Ail Séché aux Herbes et Piment',
-              description: 'Ail séché mélangé à des herbes fraîches séchées et du piment',
+              description: 'Ail séché mélangé à des herbes séchées et du piment',
               use: 'Marinades, vinaigrettes, plats relevés',
               price: '6$',
               volume: '237 ml',
@@ -176,7 +178,7 @@ export const translations = {
             },
             {
               name: 'Mélange de Piments Fort',
-              description: 'Blanchis, refroidis puis congelés au sommet de leur fraîcheur pour conserver tous les nutriments et la saveur. Pratiques et délicieux pour vos repas quotidiens.',
+              description: 'Piments forts déshydratés à basse température pour conserver les nutriments',
               use: 'Piments forts en cuisine',
               price: '5$',
               volume: '237 ml',
@@ -184,7 +186,7 @@ export const translations = {
             },
             {
               name: 'LE Mélange',
-              description: 'Assaisonnement passe-partout à base d\'ail, tomates séchées et mélange d\'herbes du jardin',
+              description: 'Assaisonnement passe-partout à base d\'ail, tomates séchées et mélange d\'herbes du jardin, relevé avec une pinte de piment',
               use: 'Passe-partout — viandes, légumes, pâtes',
               price: '6$',
               volume: '237 ml',
@@ -199,7 +201,7 @@ export const translations = {
           tag: 'available',
           defaultSeason: 'all-seasons',
           description: 'Transformés avec amour et passion, ils sont indispensables en cuisine.',
-          detail: 'Congelés au pic de leur fraîcheur pour conserver tous les nutriments et la saveur. Pratiques et délicieux pour vos repas quotidiens.',
+          detail: 'Blanchis, refroidis puis congelés au sommet de leur fraîcheur pour conserver tous les nutriments et la saveur. Pratiques et délicieux pour vos repas quotidiens.',
           items: [
             {
               name: 'Mélange Soupe',
@@ -211,7 +213,7 @@ export const translations = {
             },
             {
               name: 'Mélange Spaghetti',
-              description: 'Carotte, oignon, poivron, céleri',
+              description: 'Carotte, oignon, poivron, céleri, ail',
               use: 'Sauces à pâtes',
               price: '5$',
               volume: '500 g',
@@ -227,7 +229,7 @@ export const translations = {
             },
             {
               name: 'Mélange Passe-Partout',
-              description: 'Oignon, poivron, haricots, courge',
+              description: 'Oignon, poivron, haricots, courge, ail',
               use: 'Passe-partout en cuisine',
               price: '5$',
               volume: '500 g',
@@ -465,6 +467,7 @@ export const translations = {
       contactForPrice: 'Price on request',
       orderBtn: 'Order',
       useLabel: 'Best for',
+      taxLabel: '+ tax',
       seasons: {
         spring: 'Spring',
         summer: 'Summer',
@@ -478,6 +481,7 @@ export const translations = {
           emoji: '🌱',
           name: 'Le Pré Paré — Seedlings & Plants',
           tag: 'available',
+          taxable: true,
           defaultSeason: 'spring',
           description: 'Grown with love and passion — no pesticides or chemical fertilizers.',
           detail: 'Our seedlings are raised under the best conditions to ensure healthy, vigorous growth. Available every spring.',
@@ -488,7 +492,7 @@ export const translations = {
               use: 'All-purpose',
               price: '$4 each or 3 for $10',
               season: ['spring', 'summer'],
-              image: '/images/vegetable/Tomate_early_girl.jpg',
+              image: '/images/vegetable/Tomate_beefsteak.jpg',
             },
             {
               name: 'Dwarf Beefsteak Tomato',
@@ -583,7 +587,7 @@ export const translations = {
             },
             {
               name: 'Pépites d\'or — Dried Garlic with Herbs & Chili',
-              description: 'Dried garlic blended with fresh dried herbs and chili',
+              description: 'Dried garlic blended with dried herbs and chili',
               use: 'Marinades, dressings, spicy dishes',
               price: '$6',
               volume: '237 ml',
@@ -599,7 +603,7 @@ export const translations = {
             },
             {
               name: 'THE Blend',
-              description: 'All-purpose seasoning with garlic, sun-dried tomatoes and garden herbs',
+              description: 'All-purpose seasoning with garlic, sun-dried tomatoes and garden herbs, with a kick of chili',
               use: 'Meats, vegetables, pasta — all-purpose',
               price: '$6',
               volume: '237 ml',
@@ -614,7 +618,7 @@ export const translations = {
           tag: 'available',
           defaultSeason: 'all-seasons',
           description: 'Transformed with love and passion — indispensable in the kitchen.',
-          detail: 'Frozen at peak freshness to preserve every nutrient and flavour. Convenient and delicious for your everyday cooking.',
+          detail: 'Blanched, chilled then frozen at peak freshness to preserve every nutrient and flavour. Convenient and delicious for your everyday cooking.',
           items: [
             {
               name: 'Soup Blend',
@@ -626,7 +630,7 @@ export const translations = {
             },
             {
               name: 'Spaghetti Blend',
-              description: 'Carrot, onion, pepper, celery',
+              description: 'Carrot, onion, pepper, celery, garlic',
               use: 'Pasta sauces',
               price: '$5',
               volume: '500 g',
@@ -642,7 +646,7 @@ export const translations = {
             },
             {
               name: 'All-Purpose Blend',
-              description: 'Onion, pepper, beans, squash',
+              description: 'Onion, pepper, beans, squash, garlic',
               use: 'All-purpose cooking',
               price: '$5',
               volume: '500 g',
