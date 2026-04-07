@@ -83,7 +83,7 @@ export const translations = {
               use: 'Sandwich',
               price: '4$ l\'unité ou 3 pour 10$',
               season: ['spring', 'summer'],
-              image: '/images/vegetable/Tomate_beefsteak.jpg',
+              image: '/images/vegetable/tomate_beefsteak.png',
             },
             {
               name: 'Tomate Roma',
@@ -186,7 +186,7 @@ export const translations = {
             },
             {
               name: 'LE Mélange',
-              description: 'Assaisonnement passe-partout à base d\'ail, tomates séchées et mélange d\'herbes du jardin, relevé avec une pinte de piment',
+              description: 'Assaisonnement passe-partout à base d\'ail, tomates séchées et mélange d\'herbes du jardin, relevé avec une pointe de piment',
               use: 'Passe-partout — viandes, légumes, pâtes',
               price: '6$',
               volume: '237 ml',
@@ -500,7 +500,7 @@ export const translations = {
               use: 'Sandwiches',
               price: '$4 each or 3 for $10',
               season: ['spring', 'summer'],
-              image: '/images/vegetable/Tomate_beefsteak.jpg',
+              image: '/images/vegetable/tomate_beefsteak.png',
             },
             {
               name: 'Roma Tomato',
@@ -603,7 +603,7 @@ export const translations = {
             },
             {
               name: 'THE Blend',
-              description: 'All-purpose seasoning with garlic, sun-dried tomatoes and garden herbs, with a kick of chili',
+              description: 'All-purpose seasoning with garlic, sun-dried tomatoes and garden herbs, with a hint of chili',
               use: 'Meats, vegetables, pasta — all-purpose',
               price: '$6',
               volume: '237 ml',
