@@ -53,6 +53,10 @@
     @apply inline-block bg-garden-100 text-garden-700 text-xs font-semibold
            px-3 py-1 rounded-full;
   }
+  .badge-limited {
+    @apply inline-block bg-orange-100 text-orange-700 text-xs font-semibold
+           px-3 py-1 rounded-full;
+  }
   .badge-soon {
     @apply inline-block bg-wheat-100 text-wheat-700 text-xs font-semibold
            px-3 py-1 rounded-full;

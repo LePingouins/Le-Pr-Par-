@@ -140,6 +140,8 @@ function CategorySection({ cat, products, idx }) {
               <h2 className="font-serif text-2xl font-semibold text-garden-900">{cat.name}</h2>
               {isSoon ? (
                 <span className="badge-soon">{products.comingSoonLabel}</span>
+              ) : cat.limited ? (
+                <span className="badge-limited">{products.limitedLabel}</span>
               ) : (
                 <span className="badge-available">{products.availableLabel}</span>
               )}

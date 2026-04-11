@@ -38,6 +38,8 @@ function CategoryCard({ cat, langProducts, idx }) {
             <span className="text-4xl">{cat.emoji}</span>
             {cat.tag === 'soon' ? (
               <span className="badge-soon">{langProducts.comingSoonLabel}</span>
+            ) : cat.limited ? (
+              <span className="badge-limited">{langProducts.limitedLabel}</span>
             ) : (
               <span className="badge-available">{langProducts.availableLabel}</span>
             )}
@@ -86,10 +88,14 @@ export default function Home() {
             {h.hero.title}
           </h1>
 
-          <p className="text-xl sm:text-2xl font-light italic text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="text-xl sm:text-2xl font-light italic text-white/90 max-w-2xl mx-auto mb-4 leading-relaxed">
             {h.hero.slogan.split('\n').map((line, i) => (
               <span key={i}>{line}{i === 0 && <br />}</span>
             ))}
+          </p>
+
+          <p className="text-sm sm:text-base text-white/70 max-w-xl mx-auto mb-10 leading-relaxed">
+            {h.hero.tagline}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

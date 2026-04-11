@@ -12,6 +12,7 @@ export const translations = {
         title: 'Le Pré Paré',
         subtitle: 'Producteur Maraîcher',
         slogan: 'Cultivé avec amour et passion;\nde mon jardin à votre assiette.',
+        tagline: 'Produits naturels sans engrais chimiques, sans pesticides et sans compromis.',
         cta: 'Découvrir nos produits',
         ctaAbout: 'En savoir plus',
       },
@@ -47,6 +48,7 @@ export const translations = {
       },
       comingSoonLabel: 'À venir',
       availableLabel: 'Disponible',
+      limitedLabel: 'Disponible en quantité limitée',
       contactForPrice: 'Prix sur demande',
       orderBtn: 'Commander',
       useLabel: 'Idéal pour',
@@ -64,6 +66,7 @@ export const translations = {
           emoji: '🌱',
           name: 'Le Pré Paré — Les Plants',
           tag: 'available',
+          limited: true,
           taxable: true,
           defaultSeason: 'spring',
           description: 'Cultivés avec amour et passion sans pesticides ni engrais chimiques.',
@@ -156,6 +159,7 @@ export const translations = {
           emoji: '🍃',
           name: 'Les Incontournables Déshydratés',
           tag: 'available',
+          limited: true,
           defaultSeason: 'all-seasons',
           description: 'Transformés avec amour et passion, ils sont indispensables en cuisine.',
           detail: 'Déshydratés à basse température pour conserver tous les nutriments et la saveur. Leur conservation est de longue durée tout naturellement.',
@@ -200,7 +204,7 @@ export const translations = {
           name: 'Les Incontournables Congelés',
           tag: 'available',
           defaultSeason: 'all-seasons',
-          description: 'Transformés avec amour et passion, ils sont indispensables en cuisine.',
+          description: 'Soigneusement Préparés pour vous, ils sont indispensables en cuisine.',
           detail: 'Blanchis, refroidis puis congelés au sommet de leur fraîcheur pour conserver tous les nutriments et la saveur. Pratiques et délicieux pour vos repas quotidiens.',
           items: [
             {
@@ -282,6 +286,7 @@ export const translations = {
           emoji: '🥕',
           name: 'Légumes au Fil des Saisons',
           tag: 'available',
+          limited: true,
           description: 'Cultivés avec amour et passion sans pesticides ni engrais chimiques.',
           detail: 'Des légumes frais récoltés à pleine maturité. Livraison dans un rayon de 10 km de Senneville ou Sainte-Anne-de-Bellevue. Ramassage disponible sur place.',
           items: [
@@ -325,7 +330,7 @@ export const translations = {
           name: 'La Popotte à PP — Plats Préparés',
           tag: 'soon',
           description: 'Cette catégorie sera développée sous peu.',
-          detail: 'Nous travaillons avec passion sur cette nouvelle offre : des plats maison préparés avec nos propres légumes. Restez à l\'affût des nouveautés!',
+          detail: 'Nous travaillons sur cette nouvelle offre : des plats maison préparés avec nos propres légumes. Restez à l\'affût des nouveautés!',
           items: [],
         },
         {
@@ -356,6 +361,7 @@ export const translations = {
       name: 'Chantal Paré',
       role: 'Fondatrice & Productrice',
       bio: [
+        'Titulaire d\'un certificat en horticulture et gestion des espaces verts je me spécialise depuis plus de 20 ans dans la création de potagers et dans l\'aménagement et l\'entretien de végétaux de toute sorte.',
         'Passionnée de jardinage, d\'alimentation et de cuisine, je rêve depuis longtemps d\'un projet qui mette en relation toutes les passions de ma vie.',
         'Mes expériences passées m\'ont apporté beaucoup de connaissances, m\'ont fait rencontrer des gens formidables et m\'ont fait participer à différents projets enrichissants.',
         'Aujourd\'hui je veux partager ce qui me rend heureuse et faire vivre une expérience au rapport qualité prix imbattable.',
@@ -366,7 +372,7 @@ export const translations = {
         items: [
           { icon: '🌎', title: 'Écologique & Responsable', text: 'Production sans pesticides ni engrais chimiques, dans le respect de la nature et de l\'environnement.' },
           { icon: '❤️', title: 'Passion & Amour', text: 'Chaque geste et chaque soin reflètent notre amour profond pour la terre, les plantes et l\'alimentation saine.' },
-          { icon: '🤝', title: 'Communauté', text: 'Rencontrer des gens formidables et partager notre passion avec notre communauté locale de Sainte-Anne-de-Bellevue.' },
+          { icon: '🤝', title: 'Communauté', text: 'Rencontrer des gens formidables et partager notre passion avec notre communauté locale.' },
           { icon: '⭐', title: 'Qualité', text: 'Offrir le meilleur rapport qualité-prix grâce à des produits frais, locaux et cultivés avec le plus grand soin.' },
         ],
       },
@@ -378,7 +384,7 @@ export const translations = {
 
     contact: {
       title: 'Contactez-Nous',
-      subtitle: 'Nous sommes à votre écoute pour toute question, commande ou collaboration.',
+      subtitle: 'Nous sommes à votre écoute pour toute question, commentaire, commande ou collaboration.',
       info: {
         title: 'Informations',
         address: 'Adresse',
@@ -429,6 +435,7 @@ export const translations = {
         title: 'Le Pré Paré',
         subtitle: 'Market Gardener',
         slogan: 'Grown with love and passion;\nfrom my garden to your table.',
+        tagline: 'Natural products — no chemical fertilizers, no pesticides, no compromises.',
         cta: 'Discover our products',
         ctaAbout: 'Learn more',
       },
@@ -464,6 +471,7 @@ export const translations = {
       },
       comingSoonLabel: 'Coming soon',
       availableLabel: 'Available',
+      limitedLabel: 'Available in limited quantities',
       contactForPrice: 'Price on request',
       orderBtn: 'Order',
       useLabel: 'Best for',
@@ -481,6 +489,7 @@ export const translations = {
           emoji: '🌱',
           name: 'Le Pré Paré — Seedlings & Plants',
           tag: 'available',
+          limited: true,
           taxable: true,
           defaultSeason: 'spring',
           description: 'Grown with love and passion — no pesticides or chemical fertilizers.',
@@ -573,6 +582,7 @@ export const translations = {
           emoji: '🍃',
           name: 'Dehydrated Essentials',
           tag: 'available',
+          limited: true,
           defaultSeason: 'all-seasons',
           description: 'Transformed with love and passion — indispensable in the kitchen.',
           detail: 'Dehydrated at low temperature to preserve all nutrients and flavour. Their shelf life is naturally long-lasting.',
@@ -617,7 +627,7 @@ export const translations = {
           name: 'Frozen Essentials',
           tag: 'available',
           defaultSeason: 'all-seasons',
-          description: 'Transformed with love and passion — indispensable in the kitchen.',
+          description: 'Carefully Prepared for you — indispensable in the kitchen.',
           detail: 'Blanched, chilled then frozen at peak freshness to preserve every nutrient and flavour. Convenient and delicious for your everyday cooking.',
           items: [
             {
@@ -699,6 +709,7 @@ export const translations = {
           emoji: '🥕',
           name: 'Seasonal Vegetables',
           tag: 'available',
+          limited: true,
           description: 'Grown with love and passion — no pesticides or chemical fertilizers.',
           detail: 'Fresh vegetables harvested at peak ripeness. Delivery within 10 km of Senneville or Sainte-Anne-de-Bellevue. On-site pickup also available.',
           items: [
@@ -742,7 +753,7 @@ export const translations = {
           name: 'PP\'s Kitchen — Prepared Meals',
           tag: 'soon',
           description: 'This category is coming soon.',
-          detail: 'We are passionately working on this new offering: home-cooked meals made with our very own vegetables. Stay tuned for delicious updates!',
+          detail: 'We are working on this new offering: home-cooked meals made with our very own vegetables. Stay tuned for delicious updates!',
           items: [],
         },
         {
@@ -773,6 +784,7 @@ export const translations = {
       name: 'Chantal Paré',
       role: 'Founder & Producer',
       bio: [
+        'Holder of a certificate in horticulture and green space management, I have specialized for over 20 years in the creation of vegetable gardens and in the planning and maintenance of all types of plants.',
         'Passionate about gardening, nutrition, and cooking, I have long dreamed of a project that brings all of my passions together in one place.',
         'My past experiences have brought me a wealth of knowledge, led me to meet wonderful people, and allowed me to participate in various enriching projects.',
         'Today I want to share what makes me happy and offer an experience with unbeatable value for money.',
@@ -783,7 +795,7 @@ export const translations = {
         items: [
           { icon: '🌎', title: 'Ecological & Responsible', text: 'Production without pesticides or chemical fertilizers, in harmony with nature and the environment.' },
           { icon: '❤️', title: 'Passion & Love', text: 'Every gesture and care given to our plants and vegetables reflects our deep love for the land and healthy food.' },
-          { icon: '🤝', title: 'Community', text: 'Meeting wonderful people and sharing our passion with our local community in Sainte-Anne-de-Bellevue.' },
+          { icon: '🤝', title: 'Community', text: 'Meeting wonderful people and sharing our passion with our local community.' },
           { icon: '⭐', title: 'Quality', text: 'Offering the best value through fresh, local, and carefully grown products — straight from the garden.' },
         ],
       },
@@ -795,7 +807,7 @@ export const translations = {
 
     contact: {
       title: 'Contact Us',
-      subtitle: 'We\'re here for any question, order, or collaboration.',
+      subtitle: 'We\'re here for any question, comment, order, or collaboration.',
       info: {
         title: 'Information',
         address: 'Address',

@@ -104,9 +104,8 @@ export default function Footer() {
 
       {/* Bottom bar */}
       <div className="border-t border-garden-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-garden-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-center items-center text-xs text-garden-500">
           <span>© {year} Le Pré Paré — {t.footer.rights}</span>
-          <span>{t.footer.madeWith}</span>
         </div>
       </div>
     </footer>
