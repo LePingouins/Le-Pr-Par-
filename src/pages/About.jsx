@@ -41,8 +41,9 @@ export default function About() {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/5]">
                 <img
                   src="/images/pp3.png"
-                  alt="Chantal Paré — fondatrice de Le Pré Paré"
+                  alt="Chantal Paré, fondatrice de LePréparé (Le Pré Paré), productrice maraîchère artisanale"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                   onError={e => {
                     e.target.parentElement.className += ' bg-gradient-to-br from-garden-100 to-garden-200 flex flex-col items-center justify-center gap-6'
                     e.target.remove()

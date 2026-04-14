@@ -17,7 +17,7 @@ export default function Navbar() {
   const idleClass   = 'text-gray-600 hover:text-garden-700'
 
   return (
-    <nav className="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-garden-100">
+    <nav aria-label="Navigation principale" className="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-garden-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 

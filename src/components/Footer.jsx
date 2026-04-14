@@ -82,6 +82,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h3 className="font-serif text-white text-lg font-semibold mb-5">{t.footer.contactTitle}</h3>
+            <address className="not-italic">
             <ul className="space-y-3 text-sm text-garden-300">
               <li className="flex items-center gap-2">
                 <span>📞</span>
@@ -98,14 +99,16 @@ export default function Footer() {
                 <span>{lang === 'fr' ? 'Virement Interac' : 'Interac e-Transfer'}</span>
               </li>
             </ul>
+            </address>
           </div>
         </div>
       </div>
 
       {/* Bottom bar */}
       <div className="border-t border-garden-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex justify-center items-center text-xs text-garden-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col items-center gap-1 text-xs text-garden-500">
           <span>© {year} Le Pré Paré — {t.footer.rights}</span>
+          <span className="text-garden-600">LePréparé &middot; leprepare &middot; Sainte-Anne-de-Bellevue, QC</span>
         </div>
       </div>
     </footer>

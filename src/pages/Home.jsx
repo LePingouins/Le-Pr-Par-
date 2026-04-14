@@ -60,13 +60,14 @@ export default function Home() {
   return (
     <div>
       {/* ── HERO ─────────────────────────────────────────── */}
-      <section className="relative overflow-hidden min-h-[88vh] flex items-center">
+      <section id="accueil" className="relative overflow-hidden min-h-[88vh] flex items-center">
         {/* Background image with overlay */}
         <div className="absolute inset-0">
           <img
             src="/images/pp1.png"
-            alt="Jardin Le Pré Paré"
+            alt="Jardin LePréparé — Le Pré Paré, producteur maraîcher artisanal"
             className="w-full h-full object-cover"
+            fetchpriority="high"
             onError={e => { e.target.style.display = 'none' }}
           />
           <div className="absolute inset-0 bg-gradient-to-br from-garden-900/80 via-garden-800/70 to-garden-600/60" />
@@ -117,7 +118,7 @@ export default function Home() {
       </section>
 
       {/* ── FEATURES STRIP ───────────────────────────────── */}
-      <section className="bg-white py-16 border-b border-garden-100">
+      <section id="caracteristiques" className="bg-white py-16 border-b border-garden-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {h.features.map((f, i) => (
@@ -128,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* ── OUR STORY ────────────────────────────────────── */}
-      <section className="py-20 bg-cream">
+      <section id="histoire" className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Text */}
@@ -147,8 +148,9 @@ export default function Home() {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
                   src="/images/pp2.png"
-                  alt="Chantal Paré — Le Pré Paré"
+                  alt="Chantal Paré, fondatrice de LePréparé — Le Pré Paré"
                   className="w-full h-80 lg:h-96 object-cover"
+                  loading="lazy"
                   onError={e => {
                     e.target.parentElement.innerHTML = `
                       <div class="w-full h-80 lg:h-96 bg-gradient-to-br from-garden-100 to-garden-200 flex flex-col items-center justify-center gap-4">
@@ -174,7 +176,7 @@ export default function Home() {
       </section>
 
       {/* ── PRODUCT CATEGORIES ───────────────────────────── */}
-      <section className="py-20 bg-white">
+      <section id="nos-produits" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="section-title mb-4">{h.categories.title}</h2>
@@ -194,15 +196,16 @@ export default function Home() {
       </section>
 
       {/* ── GALLERY STRIP ────────────────────────────────── */}
-      <section className="py-4 bg-garden-50">
+      <section id="galerie" className="py-4 bg-garden-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-3 gap-4">
             {['/images/pp1.png', '/images/pp2.png', '/images/pp3.png'].map((src, i) => (
               <div key={i} className="rounded-2xl overflow-hidden aspect-[4/3]">
                 <img
                   src={src}
-                  alt={`Jardin Le Pré Paré ${i + 1}`}
+                  alt={`LePréparé — Jardin maraîcher artisanal ${i + 1}`}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                   onError={e => {
                     e.target.parentElement.className += ' bg-garden-100 flex items-center justify-center'
                     e.target.remove()
@@ -215,7 +218,7 @@ export default function Home() {
       </section>
 
       {/* ── CTA BANNER ───────────────────────────────────── */}
-      <section className="bg-gradient-to-br from-garden-700 to-garden-900 text-white py-20">
+      <section id="commander" className="bg-gradient-to-br from-garden-700 to-garden-900 text-white py-20">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl font-semibold mb-5">{h.cta.title}</h2>
           <p className="text-garden-200 text-lg mb-10 leading-relaxed">{h.cta.text}</p>

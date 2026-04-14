@@ -65,6 +65,7 @@ function ProductCard({ item, products, cardBg }) {
               src={item.image}
               alt={item.name}
               className="w-full h-full object-cover cursor-zoom-in transition-transform duration-300 hover:scale-105"
+              loading="lazy"
               onClick={() => setLightbox(true)}
             />
           ) : (
