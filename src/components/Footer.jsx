@@ -108,7 +108,7 @@ export default function Footer() {
       <div className="border-t border-garden-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col items-center gap-1 text-xs text-garden-500">
           <span>© {year} Le Pré Paré — {t.footer.rights}</span>
-          <span className="text-garden-600">LePréparé &middot; leprepare &middot; Sainte-Anne-de-Bellevue, QC</span>
+          <span className="text-garden-600">LePréparé &middot; leprepare</span>
         </div>
       </div>
     </footer>

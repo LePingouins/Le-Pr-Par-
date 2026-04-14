@@ -50,7 +50,7 @@ export default function About() {
                     e.target.parentElement.innerHTML += `
                       <div style="font-size:6rem">🌱</div>
                       <p style="font-family:Georgia,serif;font-size:1.5rem;color:#1b3a2b;font-weight:600">Le Pré Paré</p>
-                      <p style="color:#418b62;font-size:0.9rem">Sainte-Anne-de-Bellevue, QC</p>`
+                      <p style="color:#418b62;font-size:0.9rem">Senneville, QC</p>`
                   }}
                 />
               </div>

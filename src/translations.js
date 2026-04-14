@@ -288,7 +288,7 @@ export const translations = {
           tag: 'available',
           limited: true,
           description: 'Cultivés avec amour et passion sans pesticides ni engrais chimiques.',
-          detail: 'Des légumes frais récoltés à pleine maturité. Livraison dans un rayon de 10 km de Senneville ou Sainte-Anne-de-Bellevue. Ramassage disponible sur place.',
+          detail: 'Des légumes frais récoltés à pleine maturité. Livraison dans un rayon de 10 km de Senneville. Ramassage disponible sur place.',
           items: [
             {
               name: 'Le Sac Frais du Jour',
@@ -388,7 +388,7 @@ export const translations = {
       info: {
         title: 'Informations',
         address: 'Adresse',
-        addressValue: '25 rue Legault, Sainte-Anne-de-Bellevue, QC',
+        addressValue: '25 rue Legault, Senneville, QC',
         phone: 'Téléphone',
         phoneValue: '514-691-0949',
         email: 'Courriel',
@@ -417,7 +417,7 @@ export const translations = {
       quickLinks: 'Liens Rapides',
       contactTitle: 'Contact',
       rights: 'Tous droits réservés.',
-      madeWith: 'Fait avec ❤️ à Sainte-Anne-de-Bellevue, QC',
+      madeWith: 'Fait avec ❤️ au Québec',
     },
   },
 
@@ -711,7 +711,7 @@ export const translations = {
           tag: 'available',
           limited: true,
           description: 'Grown with love and passion — no pesticides or chemical fertilizers.',
-          detail: 'Fresh vegetables harvested at peak ripeness. Delivery within 10 km of Senneville or Sainte-Anne-de-Bellevue. On-site pickup also available.',
+          detail: 'Fresh vegetables harvested at peak ripeness. Delivery within 10 km of Senneville. On-site pickup also available.',
           items: [
             {
               name: 'Fresh Bag of the Day',
@@ -811,7 +811,7 @@ export const translations = {
       info: {
         title: 'Information',
         address: 'Address',
-        addressValue: '25 Legault Street, Sainte-Anne-de-Bellevue, QC',
+        addressValue: '25 Legault Street, Senneville, QC',
         phone: 'Phone',
         phoneValue: '514-691-0949',
         email: 'Email',
@@ -840,7 +840,7 @@ export const translations = {
       quickLinks: 'Quick Links',
       contactTitle: 'Contact',
       rights: 'All rights reserved.',
-      madeWith: 'Made with ❤️ in Sainte-Anne-de-Bellevue, QC',
+      madeWith: 'Made with ❤️ in Québec',
     },
   },
 }
