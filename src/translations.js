@@ -287,8 +287,8 @@ export const translations = {
           name: 'Légumes au Fil des Saisons',
           tag: 'available',
           limited: true,
-          description: 'Cultivés avec amour et passion sans pesticides ni engrais chimiques.',
-          detail: 'Des légumes frais récoltés à pleine maturité. Livraison dans un rayon de 10 km de Senneville. Ramassage disponible sur place.',
+          description: 'Sans pesticides ni engrais chimiques.',
+          detail: 'Des légumes frais récoltés à pleine maturité. Livraison dans un rayon de 5 km de Senneville et de Sainte-Anne-de-Bellevue, frais de livraison de 5$ applicable, minimum de commande de 30$. Ramassage disponible sur place.',
           items: [
             {
               name: 'Le Sac Frais du Jour',
@@ -364,7 +364,7 @@ export const translations = {
         'Titulaire d\'un certificat en horticulture et gestion des espaces verts je me spécialise depuis plus de 20 ans dans la création de potagers et dans l\'aménagement et l\'entretien de végétaux de toute sorte.',
         'Passionnée de jardinage, d\'alimentation et de cuisine, je rêve depuis longtemps d\'un projet qui mette en relation toutes les passions de ma vie.',
         'Mes expériences passées m\'ont apporté beaucoup de connaissances, m\'ont fait rencontrer des gens formidables et m\'ont fait participer à différents projets enrichissants.',
-        'Aujourd\'hui je veux partager ce qui me rend heureuse et faire vivre une expérience au rapport qualité prix imbattable.',
+        'Aujourd\'hui je veux partager ce qui me rend heureuse et faire vivre une expérience audacieuse à vos papilles.',
         'Nous produisons de façon écologique et responsable.',
       ],
       values: {
@@ -710,8 +710,8 @@ export const translations = {
           name: 'Seasonal Vegetables',
           tag: 'available',
           limited: true,
-          description: 'Grown with love and passion — no pesticides or chemical fertilizers.',
-          detail: 'Fresh vegetables harvested at peak ripeness. Delivery within 10 km of Senneville. On-site pickup also available.',
+          description: 'No pesticides or chemical fertilizers.',
+          detail: 'Fresh vegetables harvested at peak ripeness. Delivery within 5 km of Senneville and Sainte-Anne-de-Bellevue, $5 delivery fee applies, minimum order of $30. On-site pickup also available.',
           items: [
             {
               name: 'Fresh Bag of the Day',
@@ -787,7 +787,7 @@ export const translations = {
         'Holder of a certificate in horticulture and green space management, I have specialized for over 20 years in the creation of vegetable gardens and in the planning and maintenance of all types of plants.',
         'Passionate about gardening, nutrition, and cooking, I have long dreamed of a project that brings all of my passions together in one place.',
         'My past experiences have brought me a wealth of knowledge, led me to meet wonderful people, and allowed me to participate in various enriching projects.',
-        'Today I want to share what makes me happy and offer an experience with unbeatable value for money.',
+        'Today I want to share what makes me happy and offer an experience bold enough to awaken your taste buds.',
         'We produce in an ecological and responsible way.',
       ],
       values: {

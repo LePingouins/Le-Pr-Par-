@@ -15,19 +15,19 @@ function FeatureCard({ icon, title, text }) {
 function CategoryCard({ cat, langProducts, idx }) {
   const gradients = [
     'from-garden-50 to-garden-100',
-    'from-blue-50 to-cyan-50',
+    'from-lime-50 to-green-100',
     'from-amber-50 to-yellow-50',
-    'from-orange-50 to-amber-50',
+    'from-amber-100 to-orange-50',
     'from-rose-50 to-pink-50',
-    'from-purple-50 to-violet-50',
+    'from-orange-100 to-red-50',
   ]
   const borders = [
     'border-garden-200',
-    'border-cyan-200',
+    'border-lime-300',
     'border-amber-200',
-    'border-orange-200',
+    'border-amber-300',
     'border-rose-200',
-    'border-purple-200',
+    'border-orange-300',
   ]
 
   return (
