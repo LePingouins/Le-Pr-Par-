@@ -103,7 +103,7 @@ export default function Contact() {
                     <div className="text-xs font-semibold text-garden-600 uppercase tracking-wider mb-3">{c.info.social}</div>
                     <div className="flex gap-3">
                       <a
-                        href="https://facebook.com"
+                        href="https://www.facebook.com/people/Le-Pr%C3%A9-Par%C3%A9/61573330620293"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors border border-blue-100"
@@ -114,7 +114,7 @@ export default function Contact() {
                         Facebook
                       </a>
                       <a
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/leprepare1?igsh=MXQ1Z2h0cjVvbXc0bw=="
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 bg-pink-50 hover:bg-pink-100 text-pink-600 rounded-xl px-4 py-2.5 text-sm font-medium transition-colors border border-pink-100"
