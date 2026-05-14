@@ -120,7 +120,7 @@ function CategorySection({ cat, products, idx }) {
 
   const accentColors = [
     { bg: 'bg-garden-50',  border: 'border-garden-200', emoji_bg: 'bg-garden-100', tag: 'bg-garden-100 text-garden-700',  card: 'bg-white' },
-    { bg: 'bg-cyan-50',    border: 'border-cyan-200',   emoji_bg: 'bg-cyan-100',   tag: 'bg-cyan-100 text-cyan-700',      card: 'bg-white' },
+    { bg: 'bg-pink-50',    border: 'border-pink-200',   emoji_bg: 'bg-pink-100',   tag: 'bg-pink-100 text-pink-700',      card: 'bg-white' },
     { bg: 'bg-amber-50',   border: 'border-amber-200',  emoji_bg: 'bg-amber-100',  tag: 'bg-amber-100 text-amber-700',    card: 'bg-white' },
     { bg: 'bg-orange-50',  border: 'border-orange-200', emoji_bg: 'bg-orange-100', tag: 'bg-orange-100 text-orange-700',  card: 'bg-white' },
     { bg: 'bg-rose-50',    border: 'border-rose-200',   emoji_bg: 'bg-rose-100',   tag: 'bg-rose-100 text-rose-700',      card: 'bg-white' },
