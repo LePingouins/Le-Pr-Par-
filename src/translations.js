@@ -25,7 +25,7 @@ export const translations = {
       story: {
         badge: 'Notre Histoire',
         title: 'Passionnée de la terre et de la table',
-        text: 'Passionnée de jardinage, d\'alimentation et de cuisine, je rêve depuis longtemps d\'un projet qui mette en relation toutes les passions de ma vie. Aujourd\'hui je veux partager ce qui me rend heureuse et faire vivre une expérience au rapport qualité prix imbattable.',
+        text: 'Passionnée de jardinage, d\'alimentation et de cuisine, je rêve depuis longtemps d\'un projet qui mette en relation toutes les passions de ma vie. Aujourd\'hui je veux partager ce qui me rend heureuse et faire vivre une expérience audacieuse à vos papilles.',
         cta: 'En savoir plus sur moi',
       },
       categories: {
