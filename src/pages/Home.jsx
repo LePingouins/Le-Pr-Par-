@@ -60,42 +60,17 @@ export default function Home() {
   return (
     <div>
       {/* ── HERO ─────────────────────────────────────────── */}
-      <section id="accueil" className="relative overflow-hidden min-h-[88vh] flex items-center">
-        {/* Background image with overlay */}
-        <div className="absolute inset-0">
+      <section id="accueil" className="relative overflow-hidden min-h-[88vh] flex items-center bg-gradient-to-br from-garden-900 via-garden-800 to-garden-700">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center text-white flex flex-col items-center">
+          {/* Logo — premier plan */}
           <img
-            src="/images/pp1.png"
-            alt="Jardin LePréparé — Le Pré Paré, producteur maraîcher artisanal"
-            className="w-full h-full object-cover"
+            src="/images/newlogo.png"
+            alt="Le Pré Paré"
+            className="w-auto max-h-[55vh] max-w-lg object-contain mb-8 drop-shadow-xl"
             fetchpriority="high"
-            onError={e => { e.target.style.display = 'none' }}
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-garden-900/80 via-garden-800/70 to-garden-600/60" />
-          {/* Decorative leaves overlay */}
-          <div className="absolute inset-0 bg-leaf-pattern opacity-20" />
-        </div>
 
-        {/* Fallback gradient when no image */}
-        <div className="absolute inset-0 bg-gradient-to-br from-garden-900 via-garden-700 to-garden-500 -z-10" />
-
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center text-white">
-          {/* Pill badge */}
-          <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/30 px-4 py-1.5 rounded-full text-sm font-medium mb-8">
-            <span>🌿</span>
-            <span>{h.hero.subtitle}</span>
-          </div>
-
-          <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-md">
-            {h.hero.title}
-          </h1>
-
-          <p className="text-xl sm:text-2xl font-light italic text-white/90 max-w-2xl mx-auto mb-4 leading-relaxed">
-            {h.hero.slogan.split('\n').map((line, i) => (
-              <span key={i}>{line}{i === 0 && <br />}</span>
-            ))}
-          </p>
-
-          <p className="text-sm sm:text-base text-white/70 max-w-xl mx-auto mb-10 leading-relaxed">
+          <p className="text-sm sm:text-base text-white/80 max-w-xl mx-auto mb-10 leading-relaxed">
             {h.hero.tagline}
           </p>
 
@@ -106,13 +81,6 @@ export default function Home() {
             <Link to="/qui-suis-je" className="btn-outline-white text-base px-8 py-3.5">
               {h.hero.ctaAbout}
             </Link>
-          </div>
-
-          {/* Scroll hint */}
-          <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/60">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
           </div>
         </div>
       </section>
@@ -191,28 +159,6 @@ export default function Home() {
             <Link to="/produits" className="btn-secondary">
               {t.nav.products} →
             </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── GALLERY STRIP ────────────────────────────────── */}
-      <section id="galerie" className="py-4 bg-garden-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-3 gap-4">
-            {['/images/pp1.png', '/images/pp2.png', '/images/pp3.png'].map((src, i) => (
-              <div key={i} className="rounded-2xl overflow-hidden aspect-[4/3]">
-                <img
-                  src={src}
-                  alt={`LePréparé — Jardin maraîcher artisanal ${i + 1}`}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                  onError={e => {
-                    e.target.parentElement.className += ' bg-garden-100 flex items-center justify-center'
-                    e.target.remove()
-                  }}
-                />
-              </div>
-            ))}
           </div>
         </div>
       </section>
