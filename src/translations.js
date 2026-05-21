@@ -168,6 +168,7 @@ export const translations = {
               description: 'Fleur officinale colorée, floraison abondante',
               price: '9$ taxes incluses / barquette de 6',
               season: ['spring', 'summer'],
+              image: '/images/plants/Calendula.png',
             },
             {
               name: 'Lobelia Compacta Regatta',
@@ -644,6 +645,7 @@ export const translations = {
               description: 'Colourful medicinal flower, blooms abundantly',
               price: '$9 taxes included / tray of 6',
               season: ['spring', 'summer'],
+              image: '/images/plants/Calendula.png',
             },
             {
               name: 'Lobelia Compacta Regatta',

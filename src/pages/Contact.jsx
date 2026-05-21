@@ -229,7 +229,7 @@ export default function Contact() {
             {lang === 'fr' ? 'Une question? Une commande?' : 'A question? An order?'}
           </p>
           <h2 className="font-serif text-3xl font-semibold mb-2">
-            {lang === 'fr' ? 'On est l’à pour vous.' : 'We’re here for you.'}
+            {lang === 'fr' ? 'On est là pour vous.' : "We're here for you."}
           </h2>
           <p className="text-garden-300 text-sm mb-8">
             {lang === 'fr'
