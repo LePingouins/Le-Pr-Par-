@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/images/logo2.png"
+                src="/images/newlogo.png"
                 alt="Le Pré Paré"
                 className="h-12 w-12 rounded-full object-cover border-2 border-garden-600"
                 onError={e => { e.target.style.display = 'none' }}

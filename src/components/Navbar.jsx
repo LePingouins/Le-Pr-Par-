@@ -24,7 +24,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group" onClick={() => setOpen(false)}>
             <img
-              src="/images/logo2.png"
+              src="/images/newlogo.png"
               alt="Le Pré Paré logo"
               className="h-10 w-10 rounded-full object-cover border-2 border-garden-200 group-hover:border-garden-400 transition-colors"
               onError={e => { e.target.style.display = 'none' }}

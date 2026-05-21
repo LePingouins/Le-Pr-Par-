@@ -41,7 +41,7 @@ function CategoryCard({ cat, langProducts, idx }) {
             ) : cat.limited ? (
               <span className="badge-limited">{langProducts.limitedLabel}</span>
             ) : (
-              <span className="badge-available">{langProducts.availableLabel}</span>
+              <span className="badge-available">{cat.tagLabel ?? langProducts.availableLabel}</span>
             )}
           </div>
           <h3 className="font-serif text-garden-800 font-semibold text-lg mb-2 leading-snug">{cat.name}</h3>

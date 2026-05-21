@@ -144,7 +144,7 @@ function CategorySection({ cat, products, idx }) {
               ) : cat.limited ? (
                 <span className="badge-limited">{products.limitedLabel}</span>
               ) : (
-                <span className="badge-available">{products.availableLabel}</span>
+                <span className="badge-available">{cat.tagLabel ?? products.availableLabel}</span>
               )}
             </div>
             <p className="text-garden-700 font-medium mb-2 leading-relaxed">{cat.description}</p>
